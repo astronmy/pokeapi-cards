@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeAPI</title>
+</head>
+<link rel="stylesheet" href="css/main.css">
+
+<body>
+  <header>
+      <h1 class="p-3">Pokemon API</h1>
+  </header>
+  <main>
+    <div class="container w-75 mt-5 p-1">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <input  type="text" id="search" class="form-control" placeholder="Filtrar.......">
+        </div>
+      </div>
+    </div>
+    <div class="container poke-container mt-5 mb-0"></div>
+    <div class="container mt-1 d-flex justify-content-center g-3 mb-5">
+      <div class="btn-toolbar" role="toolbar">
+        <div class="btn-group me-2" role="group" id="pages"></div>
+      </div>
+    </div>
+  </main>
+  <footer>
+      <h2 class="p-4"><span class="poke-style">Proyecto Final</span> - Renzo Vinci</h2>
+  </footer>
+  <script src="js/libs/jquery.min.js"></script>
+  <script src="js/config/environmet.js"></script>
+  <script src="js/model/Pokemon.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
